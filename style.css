@@ -15,7 +15,7 @@ body {
 
 .nav {
   background-color: var(--purple);
-  padding: 1rem 2rem;
+  padding: 1.5rem 2rem;
   box-shadow: 0 2px 4px 0 rgba(57, 57, 57, 0.4);
   position: relative;
   width: 100vw;
@@ -46,7 +46,9 @@ body {
 }
 
 .main {
-  background-color: #e5e5e5;
+  /* the National Collection gray – a bit dark for my taste */
+  /* background-color: #e5e5e5; */
+  background-color: #f1f1f1;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -60,7 +62,7 @@ body {
   justify-content: center;
   align-items: center;
   gap: 3rem;
-  padding: 4rem 2rem;
+  padding: 6rem 2rem;
 }
 
 .main__title {
@@ -88,6 +90,8 @@ body {
   justify-content: center;
   align-items: center;
   width: 100vw;
+  padding: 1.5rem;
+  box-shadow: 0 0px 5px rgba(57, 57, 57, 0.1);
 }
 
 /* Links */
