@@ -18,7 +18,7 @@ body {
   padding: 1.5rem 2rem;
   box-shadow: 0 2px 4px 0 rgba(57, 57, 57, 0.4);
   position: relative;
-  width: 100vw;
+
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -59,7 +59,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100vw;
 }
 
 .main__content {
@@ -99,6 +98,7 @@ body {
   width: 100vw;
   padding: 1.5rem;
   box-shadow: 0 0px 5px rgba(57, 57, 57, 0.1);
+  overflow: hidden;
 }
 
 /* Links */
