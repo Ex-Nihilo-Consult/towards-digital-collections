@@ -19,6 +19,13 @@ body {
   box-shadow: 0 2px 4px 0 rgba(57, 57, 57, 0.4);
   position: relative;
   width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav__contact {
+  text-transform: uppercase;
 }
 
 .logo {
@@ -95,22 +102,35 @@ body {
 }
 
 /* Links */
-/* unvisited link */
 a:link {
   color: var(--purple);
 }
 
-/* visited link */
 a:visited {
   color: var(--purple);
 }
 
-/* mouse over link */
 a:hover {
   color: var(--yellow);
 }
 
-/* selected link */
 a:active {
+  color: var(--yellow);
+}
+
+.nav__contact a:link {
+  color: white;
+  text-decoration: none;
+}
+
+.nav__contact a:visited {
+  color: white;
+}
+
+.nav__contact a:hover {
+  color: var(--yellow);
+}
+
+.nav__contacta:active {
   color: var(--yellow);
 }
